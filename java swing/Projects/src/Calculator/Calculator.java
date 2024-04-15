@@ -77,6 +77,7 @@ public class Calculator {
 		frame.getContentPane().add(lblNewLabel_2);
 		
 		textField_2 = new JTextField();
+		textField_2.setEditable(false);
 		textField_2.setBounds(502, 127, 96, 19);
 		frame.getContentPane().add(textField_2);
 		textField_2.setColumns(10);
