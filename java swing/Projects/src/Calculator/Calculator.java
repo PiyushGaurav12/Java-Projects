@@ -129,11 +129,12 @@ public class Calculator {
 		JButton btnNewButton_3 = new JButton("Divide");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n,m,c;
+				int n,m;
+				float c;
 				  n=Integer.parseInt(textField.getText()); 
 				  m=Integer.parseInt(textField_1.getText()); 
 				  c=n/m;
-				  textField_2.setText(Integer.toString(c));
+				  textField_2.setText(Float.toString(c));
 			}
 		});
 		btnNewButton_3.setBounds(87, 369, 85, 21);
